@@ -7,6 +7,9 @@ import './PostCard.scss';
 
 // done_todo: делаем открывание/закрывание комментариев по кнопочке и добавляем лоадинг индикатор на загрузку комментариев
 
+
+const name = 'Mila';
+
 export class PostCard extends PureComponent {
     constructor(props) {
         super(props);
